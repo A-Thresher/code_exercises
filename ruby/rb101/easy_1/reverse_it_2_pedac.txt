@@ -1,0 +1,66 @@
+=begin
+PEDAC Template
+==============
+(Understand the) Problem
+------------------------
+-  Inputs: string
+-  Output: string with words that have 5 or more letters reversed
+---
+**Problem Domain:**
+  Method (single argument), string
+---
+**Implicit Requirements:**
+---
+**Clarifying Questions:**
+1.
+2.
+3.
+---
+**Mental Model:**
+  Given a string
+  Split the string into separate words
+  Reverse the letter order of words with 5 or more letters
+  Recombine the words into a single string
+---
+Examples / Test Cases / Edge Cases
+----------------------------------
+**Examples:**
+-  Example 1
+  -  Inputs: Professional
+  -  Output: lanoisseforP
+-  Example 2
+  -  Inputs: Walk around the block
+  -  Output:Walk dnuora the kcolb
+---
+_Your Test Cases:_
+-  Example 3
+  -  Inputs: Launch School
+  -  Output: hcnuaL loohcS
+---
+_Your Edge Cases:_
+-  Example 4
+  -  Inputs: ''
+  -  Output: ''
+---
+Data Structure
+--------------
+  String to array to string
+---
+Algorithm
+---------
+  START
+
+  # Given a string
+
+  SET string_array = string.split
+
+  IF element of string_array has >= 5 letters
+    reverse letter order
+
+  join modified string_array
+
+  END
+---
+Code
+----
+=end

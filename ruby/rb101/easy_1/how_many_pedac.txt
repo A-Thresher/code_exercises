@@ -1,0 +1,76 @@
+=begin
+PEDAC Template
+==============
+(Understand the) Problem
+------------------------
+-  Inputs: array of strings
+-  Output: list of unique elements and a number of occurances for each
+---
+**Problem Domain:**
+  method (array argument), element, count, hash
+---
+**Implicit Requirements:**
+  store element and count in hash
+---
+**Clarifying Questions:**
+1.
+2.
+3.
+---
+**Mental Model:**
+  Array is passed to the method
+  Initialize the count hash
+  Iterate through the elements
+    If a element is new, create a key and count 1 in the count hash
+    If an element is already a key, add 1 to its count
+  Print each key and count pair
+---
+Examples / Test Cases / Edge Cases
+----------------------------------
+**Examples:**
+-  Example 1
+  -  Inputs: vehicles = ['car', 'car', 'truck', 'car', 'SUV', 'truck', 'motorcycle', 'motorcycle', 'car', 'truck']
+  -  Output:  car => 4
+              truck => 3
+              SUV => 1
+              motorcycle => 2
+-  Example 2
+  -  Inputs:
+  -  Output:
+---
+_Your Test Cases:_
+-  Example 3
+  -  Inputs:
+  -  Output:
+---
+_Your Edge Cases:_
+-  Example 4
+  -  Inputs:
+  -  Output:
+---
+Data Structure
+--------------
+  Array, Hash
+---
+Algorithm
+---------
+  START
+
+  # Given array of strings
+
+  SET count hash = {}
+  SET iterator = 0
+
+  WHILE iterator < array.size
+    IF array[iterator] is a key in count hash add one to its count
+    ELSE add the array[iterator] as a key in count hash and add one to its count
+    
+    SET iterator += 1
+
+  PRINT each key and count pair from count hash
+
+  END
+---
+Code
+----
+=end

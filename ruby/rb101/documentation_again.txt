@@ -1,0 +1,46 @@
+1. Class and Instance Methods:
+  https://docs.ruby-lang.org/en/3.0.0/File.html#method-c-path
+  File::path -> returns the string representation of the path
+    Called on File class, with target file as the argument.
+
+  https://docs.ruby-lang.org/en/3.0.0/File.html#method-i-path
+  File#path  -> returns the pathname used to create file as a string.
+    Called on an instance.
+
+2. Optional Arguments Redux
+  https://docs.ruby-lang.org/en/3.0.0/Date.html#method-c-civil
+  -4712-01-01
+  2016-01-01
+  2016-05-01
+  2016-05-13
+
+3. Default Arguments in the Middle
+  https://docs.ruby-lang.org/en/3.0.0/doc/syntax/calling_methods_rdoc.html
+  [4, 5, 3, 6]
+
+4. Mandatory Blocks
+  https://docs.ruby-lang.org/en/3.0.0/Array.html#method-i-bsearch
+  a.bsearch { |x| x > 8 }
+
+5. Multiple Signatures
+  https://docs.ruby-lang.org/en/3.0.0/Array.html#method-i-fetch
+  error, 7 isn't in range
+  'beats me'
+  '49'
+
+6. Keyword Arguments
+  https://docs.ruby-lang.org/en/3.0.0/Numeric.html#method-i-step
+  5
+  8
+
+7. Parent Class
+  https://docs.ruby-lang.org/en/3.0.0/Object.html#method-i-public_methods
+  puts s.public_methods(false).inspect
+
+8. Included Modules
+  https://docs.ruby-lang.org/en/3.0.0/Array.html#method-i-min
+  (2.3.0)https://ruby-doc.org/core-2.3.0/Enumerable.html#method-i-min
+  puts a.min(2)
+
+9. Down the Rabbit Hole
+  https://docs.ruby-lang.org/en/3.0.0/Psych.html#method-c-load_file

@@ -1,0 +1,63 @@
+=begin
+PEDAC Template
+==============
+(Understand the) Problem
+------------------------
+-  Inputs: One Integer
+-  Output: Boolean true for odd number
+---
+**Problem Domain:**
+  method (single argument), integer (any sign), boolean, absolute value
+---
+**Implicit Requirements:**
+---
+**Clarifying Questions:**
+1.
+2.
+3.
+---
+**Mental Model:**
+  Pass single integer into method.
+  Method checks absolute value of integer for odd or even.
+  Returns true if odd
+---
+Examples / Test Cases / Edge Cases
+----------------------------------
+**Examples:**
+-  Example 1
+  -  Inputs: 5
+  -  Output: true
+-  Example 2
+  -  Inputs: -2
+  -  Output: false
+---
+_Your Test Cases:_
+-  Example 3
+  -  Inputs: -3
+  -  Output: true
+---
+_Your Edge Cases:_
+-  Example 4
+  -  Inputs: 0
+  -  Output: false
+---
+Data Structure
+--------------
+  None
+---
+Algorithm
+---------
+  START
+
+  # Given an integer
+
+  IF integer is not divisible by 2 with no remainder
+    RETURN true
+  ELSE
+    RETURN false
+
+  END
+---
+Code
+----
+=end

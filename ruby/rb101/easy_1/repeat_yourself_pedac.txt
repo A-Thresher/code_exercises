@@ -1,0 +1,72 @@
+=begin
+PEDAC Template
+==============
+(Understand the) Problem
+------------------------
+-  Inputs: a string and an integer
+-  Output: the string prints integer times
+---
+**Problem Domain:**
+method (with arguments), string, integer
+---
+**Implicit Requirements:**
+None
+---
+**Clarifying Questions:**
+1. Are the string and number entered by the user? (No)
+2.
+3.
+---
+**Mental Model:**
+  Pass string and integer to repeat_yourself method
+  Print the string integer number of times
+
+---
+Examples / Test Cases / Edge Cases
+----------------------------------
+**Examples:**
+-  Example 1
+  -  Inputs: 'hello' 2
+  -  Output: hello 
+             hello 
+-  Example 2
+  -  Inputs: 'gram' 3
+  -  Output: gram
+             gram
+             gram
+---
+_Your Test Cases:
+-  Example 3
+  -  Inputs: 'nine' 5
+  -  Output: nine
+             nine
+             nine
+             nine
+             nine
+---
+_Your Edge Cases:_
+-  Example 4
+  -  Inputs: 'zero?' 0
+  -  Output:
+---
+Data Structure
+--------------
+No structures
+---
+Algorithm
+---------
+  START
+  
+  # Given a string and an integer
+
+  SET iterator = 0
+
+  UNTIL iterator == integer
+    PRINT string
+    iterator += 1
+
+  END
+---
+Code
+----
+=end

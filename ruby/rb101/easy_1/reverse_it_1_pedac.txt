@@ -1,0 +1,61 @@
+=begin
+PEDAC Template
+==============
+(Understand the) Problem
+------------------------
+-  Inputs: string
+-  Output: string with words in reverse order
+---
+**Problem Domain:**
+  method (single argument), string
+---
+**Implicit Requirements:**
+---
+**Clarifying Questions:**
+1.
+2.
+3.
+---
+**Mental Model:**
+  Given string
+  Split string into words
+  Reverse word order and recombine string
+  Return reordered string
+---
+Examples / Test Cases / Edge Cases
+----------------------------------
+**Examples:**
+-  Example 1
+  -  Inputs: 'Hello World'
+  -  Output: 'World Hello'
+-  Example 2
+  -  Inputs: 'Reverse these words'
+  -  Output: 'words these Reverse'
+---
+_Your Test Cases:_
+-  Example 3
+  -  Inputs:
+  -  Output:
+---
+_Your Edge Cases:_
+-  Example 4
+  -  Inputs: ''
+  -  Output: ''
+---
+Data Structure
+--------------
+  String to Array back to String
+---
+Algorithm
+---------
+  START
+
+  # Given a string
+
+  DO string.split.reverse.join(' ')
+
+  END
+---
+Code
+----
+=end

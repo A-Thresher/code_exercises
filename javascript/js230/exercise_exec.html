@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercises</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+    <script src="./forms.js" defer></script>
+    <script type="text/x-handlebars" id="question_template">
+      <p>Q{{id}}. {{{description}}}</p>
+      {{#each options}}
+        <div>
+          <input type="radio" id="{{../id}}-{{@index}}"
+                 name="{{../id}}" value="{{this}}" />
+          <label for="{{../id}}-{{@index}}">{{this}}</label>
+        </div>
+      {{/each}}
+      <p id="{{id}}_result"></p>
+    </script>
+  </head>
+  <body>
+    <h1>Multiple Choice Quiz</h1>
+    <form action="#" method="post" id="quiz">
+      <fieldset>
+        <div id="questions"></div>
+        <input type="submit" value="Submit Quiz" id="submit" />
+        <button type="button" id="reset_button" disabled>Reset</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

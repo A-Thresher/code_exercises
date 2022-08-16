@@ -1,0 +1,27 @@
+<mxfile>
+    <diagram id="JtzLycAdq06po-3lXMo4" name="Page-1">
+        <mxGraphModel dx="1270" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <object label="START" hedietLinkedDataV1_path="../list_of_digits.rb" id="2">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="200" y="30" width="120" height="60" as="geometry"/>
+                    </mxCell>
+                </object>
+                <mxCell id="7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="digit_list(integer)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="integer.digits.reverse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="185" y="250" width="150" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

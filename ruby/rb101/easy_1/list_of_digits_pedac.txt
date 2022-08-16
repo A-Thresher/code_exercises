@@ -1,0 +1,63 @@
+=begin
+PEDAC Template
+==============
+(Understand the) Problem
+------------------------
+-  Inputs: one positive integer
+-  Output: list of digits in the number
+---
+**Problem Domain:**
+  method (single argument), integer (positive), digit
+---
+**Implicit Requirements:**
+  list returned in an array
+---
+**Clarifying Questions:**
+1.
+2.
+3.
+---
+**Mental Model:**
+  Pass single positive integer into method
+  Split the integer into its constituent digits
+  Return an array of those digits
+---
+Examples / Test Cases / Edge Cases
+----------------------------------
+**Examples:**
+-  Example 1
+  -  Inputs: 12345
+  -  Output: [1, 2, 3, 4, 5]
+-  Example 2
+  -  Inputs: 7
+  -  Output: [7]
+---
+_Your Test Cases:_
+-  Example 3
+  -  Inputs: 375290
+  -  Output: [3, 7, 5, 2, 9, 0]
+---
+_Your Edge Cases:_
+-  Example 4
+  -  Inputs: 444
+  -  Output: [4, 4, 4]
+---
+Data Structure
+--------------
+  array
+---
+Algorithm
+---------
+  START
+
+  # Given a positive integer
+
+  USE .digits and .reverse on integer
+
+  PRINT resulting array
+
+  END
+---
+Code
+----
+=end
